@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Press | Greenity Corporation",
-    description: "Latest news and press releases from Greenity Corporation and its brands — Sengsihk, Clean Hat, Clean View, and Akiiko.",
+    title: "Press | GREENITY CORPORATION INC.",
+    description: "Latest news and press releases from GREENITY CORPORATION INC. and its brands — Sengsihk, Clean Hat, Clean View, and Akiiko.",
     openGraph: {
-        title: "Press | Greenity Corporation",
-        description: "Latest news and press releases from Greenity Corporation and its brands.",
-        siteName: "Greenity Corporation",
+        title: "Press | GREENITY CORPORATION INC.",
+        description: "Latest news and press releases from GREENITY CORPORATION INC. and its brands.",
+        siteName: "GREENITY CORPORATION INC.",
     },
 };
 
@@ -15,7 +15,7 @@ export default function Press() {
         {
             id: 1,
             category: "Sustainability",
-            title: "Greenity Corporation Expands Sustainable Product Line",
+            title: "GREENITY CORPORATION INC. Expands Sustainable Product Line",
             date: "2026.02.15",
             excerpt: "Following the core mission of a 'Greener Future', Greenity announces new eco-friendly initiatives across all brands."
         },
