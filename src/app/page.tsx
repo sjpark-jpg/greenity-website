@@ -46,28 +46,30 @@ export default function Home() {
           <div className="absolute bottom-1/4 -right-1/4 w-1/2 h-1/2 bg-cleanhat/20 rounded-full blur-[120px]" />
         </div>
 
-        <div className="container mx-auto px-6 relative z-10 text-center">
-          <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1] text-foreground">
-            Innovating Everyday Life<br />
-            <span className="text-greenity">for a Cleaner, Greener Future.</span>
-          </h1>
-          <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed font-light text-center">
-            We uncover and solve hidden inconveniences in daily life,
-            shaping the ultimate home lifestyle experience.
-          </p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <Link
-              href="/company"
-              className="px-10 py-4 bg-foreground text-white rounded-full font-medium hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
-            >
-              Learn More
-            </Link>
-            <Link
-              href="/brands"
-              className="px-10 py-4 border border-gray-200 rounded-full font-medium hover:border-gray-900 transition-colors"
-            >
-              Explore Brands
-            </Link>
+        <div className="container mx-auto px-6 relative z-10 flex flex-col items-center">
+          <div className="text-center w-full max-w-5xl">
+            <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1] text-foreground">
+              Innovating Everyday Life<br />
+              <span className="text-greenity">for a Cleaner, Greener Future.</span>
+            </h1>
+            <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+              We uncover and solve hidden inconveniences in daily life,
+              shaping the ultimate home lifestyle experience.
+            </p>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+              <Link
+                href="/company"
+                className="px-10 py-4 bg-foreground text-white rounded-full font-medium hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
+              >
+                Learn More
+              </Link>
+              <Link
+                href="/brands"
+                className="px-10 py-4 border border-gray-200 rounded-full font-medium hover:border-gray-900 transition-colors"
+              >
+                Explore Brands
+              </Link>
+            </div>
           </div>
         </div>
 
