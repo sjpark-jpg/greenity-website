@@ -4,12 +4,12 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     <div className="col-span-1 md:col-span-2">
-                        <h2 className="text-xl font-bold mb-6 tracking-tight">
-                            GREENITY<span className="text-greenity">.</span>
+                        <h2 className="text-lg font-bold mb-6 tracking-tight">
+                            GREENITY CORPORATION INC<span className="text-greenity">.</span>
                         </h2>
-                        <p className="text-gray-500 text-sm leading-relaxed max-w-sm mb-6">
+                        <p className="text-gray-400 text-xs leading-relaxed max-w-sm mb-6 font-light">
                             Innovating everyday life for a cleaner, greener future.
-                            We are dedicated home lifestyle partners committed to enhancing happiness.
+                            We are dedicated home lifestyle partners committed to enhancing global standards of happy living.
                         </p>
                     </div>
                     <div>

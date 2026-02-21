@@ -33,7 +33,7 @@ export default function Home() {
       description: "Minimalist Carry Goods",
       color: "rgba(0, 0, 0, 0.02)",
       textColor: "text-gray-900",
-      link: "#"
+      link: "https://akiikokorea.com"
     }
   ];
 

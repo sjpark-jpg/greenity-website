@@ -30,25 +30,24 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-                isScrolled || menuOpen
-                    ? "bg-white/95 backdrop-blur-md shadow-sm py-4"
-                    : "bg-transparent py-6"
-            }`}
+            className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled || menuOpen
+                ? "bg-white/95 backdrop-blur-md shadow-sm py-4"
+                : "bg-transparent py-6"
+                }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <Link
                     href="/"
-                    className="text-2xl font-bold tracking-tight text-foreground"
+                    className="text-xl md:text-2xl font-bold tracking-tighter text-foreground"
                     onClick={() => setMenuOpen(false)}
                 >
-                    GREENITY<span className="text-greenity">.</span>
+                    GREENITY CORPORATION INC<span className="text-greenity">.</span>
                 </Link>
 
                 {/* 데스크탑 메뉴 */}
-                <div className="hidden md:flex space-x-10 text-sm font-medium uppercase tracking-widest">
+                <div className="hidden md:flex items-center space-x-12 text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500">
                     {navLinks.map(({ href, label }) => (
-                        <Link key={href} href={href} className="hover:text-greenity transition-colors">
+                        <Link key={href} href={href} className="hover:text-greenity transition-colors duration-300">
                             {label}
                         </Link>
                     ))}
@@ -74,9 +73,8 @@ const Navbar = () => {
 
             {/* 모바일 드롭다운 메뉴 */}
             <div
-                className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-                    menuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
-                }`}
+                className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+                    }`}
             >
                 <div className="container mx-auto px-6 pb-6 pt-4 flex flex-col space-y-5">
                     {navLinks.map(({ href, label }) => (

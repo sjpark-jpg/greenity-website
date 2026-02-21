@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Company | Greenity Corporation",
-    description: "Greenity Corporation Inc. is a dedicated home lifestyle partner committed to enhancing happiness by uncovering and solving hidden inconveniences in daily life.",
+    title: "Company | GREENITY CORPORATION INC.",
+    description: "GREENITY CORPORATION INC. is a dedicated home lifestyle partner committed to enhancing happiness by uncovering and solving hidden inconveniences in daily life.",
     openGraph: {
-        title: "Company | Greenity Corporation",
-        description: "Greenity Corporation Inc. is a dedicated home lifestyle partner committed to enhancing happiness.",
-        siteName: "Greenity Corporation",
+        title: "Company | GREENITY CORPORATION INC.",
+        description: "GREENITY CORPORATION INC. is a dedicated home lifestyle partner committed to enhancing happiness.",
+        siteName: "GREENITY CORPORATION INC.",
     },
 };
 
@@ -20,7 +20,7 @@ export default function Company() {
                         Innovating Everyday Life.
                     </h1>
                     <p className="text-xl text-gray-500 font-light leading-relaxed">
-                        Greenity Corporation Inc. is a dedicated home lifestyle partner committed to enhancing happiness by uncovering and solving hidden inconveniences in daily life.
+                        GREENITY CORPORATION INC. is a dedicated home lifestyle partner committed to enhancing happiness by uncovering and solving hidden inconveniences in daily life.
                     </p>
                 </header>
 
