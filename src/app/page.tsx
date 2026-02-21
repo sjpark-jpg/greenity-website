@@ -51,7 +51,7 @@ export default function Home() {
             Innovating Everyday Life<br />
             <span className="text-greenity">for a Cleaner, Greener Future.</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+          <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed font-light text-center">
             We uncover and solve hidden inconveniences in daily life,
             shaping the ultimate home lifestyle experience.
           </p>

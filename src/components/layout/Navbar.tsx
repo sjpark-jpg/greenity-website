@@ -45,7 +45,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* 데스크탑 메뉴 */}
-                <div className="hidden md:flex items-center space-x-12 text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                <div className="hidden md:flex items-center gap-8 md:gap-12 text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500">
                     {navLinks.map(({ href, label }) => (
                         <Link key={href} href={href} className="hover:text-greenity transition-colors duration-300">
                             {label}
