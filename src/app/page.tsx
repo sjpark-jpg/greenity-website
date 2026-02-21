@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function Home() {
   const brands = [
     {
-      id: "sengsihk",
-      name: "Sengsihk",
+      id: "shys",
+      name: "SHYS Korea",
       description: "Lifestyle & Home Essentials",
       color: "rgba(45, 90, 39, 0.05)",
       textColor: "text-greenity",
-      link: "https://sengsiik.kr"
+      link: "https://shys.kr"
     },
     {
       id: "cleanhat",
@@ -98,18 +98,22 @@ export default function Home() {
                 href={brand.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative overflow-hidden rounded-3xl p-12 h-[350px] flex flex-col justify-end transition-all duration-500 hover:shadow-2xl"
+                className="group relative overflow-hidden rounded-3xl p-8 md:p-10 h-[280px] flex flex-col justify-between transition-all duration-500 hover:shadow-2xl"
                 style={{ backgroundColor: brand.color }}
               >
                 <div className="relative z-10">
-                  <h3 className={`text-2xl font-bold mb-2 ${brand.textColor}`}>{brand.name}</h3>
-                  <p className="text-gray-500 text-sm mb-6">{brand.description}</p>
-                  <span className="inline-flex items-center text-xs font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform duration-300">
+                  <h3 className={`text-xl md:text-2xl font-bold mb-1 ${brand.textColor}`}>{brand.name}</h3>
+                  <p className="text-gray-400 text-xs md:text-sm font-light">{brand.description}</p>
+                </div>
+
+                <div className="relative z-10 flex items-center justify-between">
+                  <span className="inline-flex items-center text-[10px] font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform duration-300">
                     Visit Site <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                   </span>
                 </div>
-                {/* Image Placeholder or Logo could go here */}
-                <div className="absolute top-10 right-10 opacity-10 group-hover:opacity-20 transition-opacity duration-500 text-6xl font-black">
+
+                {/* Background Initial */}
+                <div className="absolute -top-4 -right-4 opacity-[0.03] group-hover:opacity-[0.08] transition-opacity duration-500 text-[180px] font-black pointer-events-none">
                   {brand.name[0]}
                 </div>
               </a>

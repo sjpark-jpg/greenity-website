@@ -14,15 +14,15 @@ export const metadata: Metadata = {
 export default function Brands() {
     const brandList = [
         {
-            id: "sengsihk",
-            name: "Sengsihk",
+            id: "shys",
+            name: "SHYS Korea",
             subtitle: "Life Focus Design",
             description: "A premium lifestyle brand that focuses on the essentials of daily living. We design products that bring comfort and convenience to your home environment, emphasizing functional beauty and sustainable quality.",
             color: "border-greenity text-greenity",
             bgColor: "bg-greenity/5",
             tags: ["Home Essentials", "Premium Design", "Lifestyle"],
             logo: "/logos/sengsihk.jpg",
-            url: "https://sengsiik.kr"
+            url: "https://shys.kr"
         },
         {
             id: "cleanhat",
